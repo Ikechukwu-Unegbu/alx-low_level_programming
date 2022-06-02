@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main function to print the text
+ * main - function to print the text
+ * Return: 0 this code will return zero if all is right
  */
 int main(void)
 {
