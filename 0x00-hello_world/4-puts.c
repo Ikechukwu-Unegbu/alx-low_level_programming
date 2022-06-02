@@ -2,7 +2,6 @@
 
 /**
  * main function to print the text
- * 
  */
 int main(void)
 {
