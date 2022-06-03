@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of single-digit numbers
+ * main - code body
  * Return: 0
  */
 int main(void)
 {
 	int x;
 
-	for (x = 28; x < 38; x++)
+	for (x = 48; x < 58; x++)
 	{
 		putchar(x);
-		if (x != 27)
+		if (x != 57)
 		{
 			putchar(',');
 			putchar(' ');
