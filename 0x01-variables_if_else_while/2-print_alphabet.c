@@ -1,19 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - function body, prints alphabet in lower case
+ * main - code body
  * Return: 0
  */
 int main(void)
 {
-    char alpha;
+	char alpha;
 
-    for (alpha = 'a'; alpha <= 'z'; alpha++)
-    {
-        putchar(alpha);
-    }
-
-    putchar('\n');
-
-    return (0);
-
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		putchar(alpha);
+	}
+	putchar('\n');
+	return (0);
 }
