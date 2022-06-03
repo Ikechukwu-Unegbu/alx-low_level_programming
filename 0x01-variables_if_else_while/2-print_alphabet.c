@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
  * main - function body, prints alphabet in lower case
  * Return: 0
  */
 int main(void)
 {
-char alpha;
+    char alpha;
 
     for (alpha = 'a'; alpha <= 'z'; alpha++)
     {
