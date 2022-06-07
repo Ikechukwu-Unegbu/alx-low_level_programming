@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
+ * _isalpha - checks for alphabet regardless of casing
  * @c: c is an ascii character
- *
  * Return: 1 (if letter)
  */
 

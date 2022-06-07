@@ -2,13 +2,13 @@
 
 /**
  * _islower - function body, checks for lower case
- * @x: x is ascii character
+ * @c: c is ascii character
  * Return: 1 on lowercase
  */
 
-int _islower(int x)
+int _islower(int c)
 {
-	if (x >= 'a' && x <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
