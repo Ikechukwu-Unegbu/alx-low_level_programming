@@ -3,7 +3,8 @@
 
 /**
  * print_to_98 - this function prints numbers to 98
- * @n: starting integer
+ * @x: starting integer
+ * Description: prints natural numbers
  * Return: void
  */
 
