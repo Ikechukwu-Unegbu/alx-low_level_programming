@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints a sentence
  * Return: 0 if correct
