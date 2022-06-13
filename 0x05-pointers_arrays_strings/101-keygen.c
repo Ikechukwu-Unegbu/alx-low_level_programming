@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry poing to generates keygen.
+ * main - entry poing to  generate key.
  * Return: 0 Always.
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	int r = 0, c = 0;
 	time_t t;
 
-	srand((unsigned int) time(0));
+	srand((unsigned int) time(&t));
 	while (c < 2772)
 	{
 		r = rand() % 128;
