@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - Entry point
+ * leet - Entry point, encodes a string to 1337
  * @n: input 
  * Return: Always 0 (Success)
  */
