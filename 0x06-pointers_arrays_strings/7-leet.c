@@ -2,7 +2,7 @@
 
 /**
  * leet - Entry point, encodes a string to 1337
- * @n: input 
+ * @n: input variable
  * Return: Always 0 (Success)
  */
 char *leet(char *n)
