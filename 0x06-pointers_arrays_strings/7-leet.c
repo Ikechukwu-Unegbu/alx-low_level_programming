@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * leet - entry point into the code
- * @n: input variable
+ * leet - Entry point
+ * @n: input 
  * Return: Always 0 (Success)
  */
 char *leet(char *n)
