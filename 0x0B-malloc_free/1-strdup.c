@@ -9,7 +9,7 @@
  */
 char *_strdup(char *str)
 {
-	char *strout;
+	char *stout;
 	unsigned int i, j;
 
 	if (str == NULL)
@@ -20,13 +20,13 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	strout = (char *)malloc(sizeof(char) * (i + 1));
+	stout = (char *)malloc(sizeof(char) * (i + 1));
 
-	if (strout == NULL)
+	if (stout == NULL)
 		return (NULL);
 
 	for (j = 0; j <= i; j++)
-		strout[j] = str[j];
+		stout[j] = str[j];
 
-	return (strout);
+	return (stout);
 }
