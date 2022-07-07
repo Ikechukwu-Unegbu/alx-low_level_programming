@@ -1,10 +1,8 @@
 #include "variadic_functions.h"
-#include <stdarg.h>
 
 /**
  * sum_them_all - returns sum of all the supplied variables
  * @n: the number of variables supplied.
- * @...: variable spread
  * Return: zero or sum of all supplied parameters.
  */
 
