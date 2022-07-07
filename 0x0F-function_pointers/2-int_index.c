@@ -1,8 +1,9 @@
 #include "function_pointers.h"
 
 /**
- * @brief 
- * 
+ * int_index - main function.
+ * @array: input array
+ * @cmp: function to act on array
  */
 
 int int_index(int *array, int size, int(*cmp)(int))
