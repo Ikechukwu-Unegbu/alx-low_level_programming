@@ -1,1 +1,1 @@
-Introduction to Variadic Functions in C
+C - Variadic functions
