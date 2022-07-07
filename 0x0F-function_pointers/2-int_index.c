@@ -4,6 +4,7 @@
  * int_index - main function.
  * @array: input array
  * @cmp: function to act on array
+ * Return: index of first element or negative one
  */
 
 int int_index(int *array, int size, int(*cmp)(int))
