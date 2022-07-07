@@ -4,7 +4,6 @@
  * print_numbers - function that prints numbers.
  * @separator: separator string
  * @n: number of integers passed.
- *
  * Return: no return.
  */
 
@@ -24,7 +23,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
         {
             printf("%s", separator);
         }
-        
+
 	}
 
 	printf("\n");
