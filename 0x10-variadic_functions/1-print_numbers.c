@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints numbers.
- * @separator: string to be printed between numbers.
+ * @separator: string to be printed
  * @n: number of integers passed to the function.
  *
  * Return: no return.
@@ -10,14 +10,14 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
-	unsigned int i;
+	unsigned int x;
 
 	va_start(valist, n);
 
-	for (i = 0; i < n; i++)
+	for (x = 0; x < n; x++)
 	{
 		printf("%d", va_arg(valist, int));
-		if (separator && i < n - 1)
+		if (separator && x < n - 1)
 			printf("%s", separator);
 	}
 
